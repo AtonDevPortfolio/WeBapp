@@ -1,5 +1,6 @@
 body {
 	background: #f9e933;
+	font-family: 'Droid', sans;
 }
 
 header, main, footer {
@@ -17,7 +18,8 @@ header {
 	overflow: auto;
 }
 
-header h1 {
+header h1, h2, h3, h4 {
+	font-family: 'Ubuntu', sans;
 	float: left;
 	width: 570px;
 }
@@ -27,8 +29,11 @@ header nav {
 	width: 285px;
 }
 
+header h2
+
 main {
 	background: white;
+	overflow: auto;
 }
 
 main .textmain {
