@@ -9,12 +9,44 @@ header, main, footer {
 header .container, main .container, footer .container {
 	max-width: 855px;
 	margin: auto;
+	clear:	both;
 }
 
 header {
 	background: white;
+	overflow: auto;
+}
+
+header h1 {
+	float: left;
+	width: 570px;
+}
+
+header nav {
+	float: right;
+	width: 285px;
 }
 
 main {
 	background: white;
+}
+
+main .textmain {
+	float: left;
+	width: 570px;
+}
+
+main .logomain {
+	float: right;
+	width: 285px;
+}
+
+footer .contact {
+	float: left;
+	width: 570px;
+}
+
+footer .sitemap {
+	float: right;
+	width: 285px;
 }
